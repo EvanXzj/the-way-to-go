@@ -13,7 +13,7 @@ func main() {
 	fmt.Println(ret)
 }
 
-func fbi(n int) func() int{
+func fbi(n int) func() int {
 	where := func() {
 		_, file, line, _ := runtime.Caller(1)
 		fmt.Printf("%s:%d", file, line)
@@ -21,7 +21,7 @@ func fbi(n int) func() int{
 	where()
 	a, b := 1, 1
 	return func() int {
-		for i:=0; i < n; i++ {
+		for i := 0; i < n; i++ {
 			a, b = b, a+b
 		}
 
