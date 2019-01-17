@@ -13,7 +13,7 @@ func main() {
 
 	f := func(s string) string {
 		v, _ := strconv.ParseFloat(s, 32)
-		return strconv.FormatFloat(v * 2, 'f', 2, 32)
+		return strconv.FormatFloat(v*2, 'f', 2, 32)
 	}
 
 	if ok, _ := regexp.Match(pattern, []byte(searchIn)); ok {

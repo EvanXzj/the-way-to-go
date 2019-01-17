@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	days := map[int]string {
+	days := map[int]string{
 		1: "monday",
 		2: "tuesday",
 		3: "wednesday",

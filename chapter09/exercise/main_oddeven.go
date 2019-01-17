@@ -1,8 +1,8 @@
 package main
 
 import (
-	"fmt"
 	"./even"
+	"fmt"
 )
 
 func main() {

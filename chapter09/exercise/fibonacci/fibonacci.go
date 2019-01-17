@@ -13,9 +13,9 @@ func Fibonacci(op string, n int) (res int) {
 	} else {
 		switch op {
 		case "+":
-			res = Fibonacci(op, n - 1) + Fibonacci(op, n - 2)
+			res = Fibonacci(op, n-1) + Fibonacci(op, n-2)
 		case "*":
-			res = Fibonacci(op, n - 1) * Fibonacci(op, n - 2)
+			res = Fibonacci(op, n-1) * Fibonacci(op, n-2)
 		default:
 			res = 0
 		}

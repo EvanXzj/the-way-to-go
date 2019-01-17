@@ -1,6 +1,6 @@
 /*
 *	注意 map 不是按照 key 的顺序排列的，也不是按照 value 的序排列的。
-*/
+ */
 
 package main
 
@@ -17,8 +17,8 @@ func main() {
 		fmt.Printf("Key is: %d - value is: %f\n", key, value)
 	}
 
-	capitals := map[string] string {"France":"Paris", "Italy":"Rome", "Japan":"Tokyo" }
-for key := range capitals {
-    fmt.Println("Map item: Capital of", key, "is", capitals[key])
-}
+	capitals := map[string]string{"France": "Paris", "Italy": "Rome", "Japan": "Tokyo"}
+	for key := range capitals {
+		fmt.Println("Map item: Capital of", key, "is", capitals[key])
+	}
 }

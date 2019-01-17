@@ -7,7 +7,7 @@ func GoodDay(name string) string {
 }
 
 func GoodNight(name string) string {
-	return  "Good Night " + name
+	return "Good Night " + name
 }
 
 func IsAM() bool {
@@ -19,7 +19,7 @@ func IsAM() bool {
 func IsAfternoon() bool {
 	t := time.Now()
 
-	return  t.Hour() > 12 && t.Hour() <= 18
+	return t.Hour() > 12 && t.Hour() <= 18
 }
 
 func IsEvening() bool {

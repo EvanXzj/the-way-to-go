@@ -15,7 +15,7 @@ func main() {
 		invMap[v] = k
 	}
 	fmt.Println("inverted:")
-    for k, v := range invMap {
-        fmt.Printf("Key: %v, Value: %v\n", k, v)
-    }
+	for k, v := range invMap {
+		fmt.Printf("Key: %v, Value: %v\n", k, v)
+	}
 }

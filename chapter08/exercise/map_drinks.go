@@ -34,12 +34,12 @@ func main() {
 	fmt.Println()
 	fmt.Println("Now the sorted output:")
 	sort.Strings(sdrinks)
-	
+
 	fmt.Printf("The following sorted drinks are available:\n")
 	for _, eng := range sdrinks {
 		fmt.Println(eng)
 	}
-	
+
 	fmt.Println()
 	for _, eng := range sdrinks {
 		fmt.Printf("The french for %s is %s\n", eng, drinks[eng])

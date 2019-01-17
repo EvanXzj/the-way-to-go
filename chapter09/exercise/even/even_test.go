@@ -4,7 +4,7 @@ import "testing"
 
 func TestEven(t *testing.T) {
 	cases := []struct {
-		in int
+		in   int
 		want bool
 	}{
 		{10, true},

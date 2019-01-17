@@ -1,8 +1,8 @@
 package main
 
 import (
-	"fmt"
 	"container/list"
+	"fmt"
 )
 
 func main() {
@@ -16,4 +16,3 @@ func main() {
 		fmt.Println(e.Value)
 	}
 }
-

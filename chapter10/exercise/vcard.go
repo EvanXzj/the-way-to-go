@@ -6,21 +6,21 @@ import (
 )
 
 type Address struct {
-	HouseNumber uint32
-	Street string
+	HouseNumber      uint32
+	Street           string
 	HouseNumberAddOn string
-	POBox string
-	ZipCode string
-	City string
-	Country string
+	POBox            string
+	ZipCode          string
+	City             string
+	Country          string
 }
 
 type VCard struct {
-	BirtDate time.Time
+	BirtDate  time.Time
 	FirstName string
-	LastName string
-	NickName string
-	Photo string
+	LastName  string
+	NickName  string
+	Photo     string
 	Addresses map[string]*Address
 }
 
