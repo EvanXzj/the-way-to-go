@@ -56,7 +56,7 @@ func main() {
 			fmt.Println(k, "is string", vv)
 		case int:
 			fmt.Println(k, "is int", vv)
-		case []interface{}:
+		case []interface{}: // 更深层次的判断， 这里也要重复上面的动作？
 			fmt.Println(k, "is an array:")
 			for i, u := range vv {
 				fmt.Println(i, u)
